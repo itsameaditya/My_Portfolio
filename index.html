@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya Singh | Data Scientist & ML Engineer</title>
+    <meta name="description" content="Portfolio of Aditya Singh — Data Scientist, ML Engineer, and Analytics Professional. Explore projects in data engineering, machine learning, and business analytics.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">AS</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="https://github.com/itsameaditya" class="nav-link nav-github" target="_blank" rel="noopener">GitHub</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <canvas id="particleCanvas"></canvas>
+        </div>
+        <div class="hero-content">
+            <p class="hero-greeting">Hi, I'm</p>
+            <h1 class="hero-name">Aditya Singh</h1>
+            <p class="hero-title">Data Scientist <span class="separator">&</span> ML Engineer</p>
+            <p class="hero-subtitle">I turn raw data into actionable insights and build intelligent systems that drive real business outcomes.</p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-outline">Get In Touch</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>I'm a data professional who thrives at the intersection of engineering and analytics. My work spans the full data lifecycle — from building scalable lakehouse architectures and ETL pipelines, to training machine learning models and delivering business intelligence that stakeholders actually use.</p>
+                    <p>I specialize in finding patterns hidden in messy, real-world data and translating them into strategies that move the needle. Whether it's predicting employee churn, optimizing delivery routes, or uncovering half-a-million dollars in leaked SaaS revenue, I bring a blend of statistical rigor and engineering discipline to every problem.</p>
+                    <p>With a strong foundation in competitive programming (C++, Python), I write clean, performant code — not just notebooks that work once.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number" data-target="8">0</span><span class="stat-plus">+</span>
+                            <span class="stat-label">Projects</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-target="10">0</span><span class="stat-plus">+</span>
+                            <span class="stat-label">Technologies</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-target="5">0</span><span class="stat-plus">+</span>
+                            <span class="stat-label">Domains</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-frame">
+                        <img src="https://avatars.githubusercontent.com/u/73281787?v=4" alt="Aditya Singh" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3>Data Engineering</h3>
+                    <ul class="skill-list">
+                        <li>Apache Spark / PySpark</li>
+                        <li>Apache Airflow</li>
+                        <li>Apache Iceberg</li>
+                        <li>ETL / ELT Pipelines</li>
+                        <li>Medallion Architecture</li>
+                        <li>Docker & Terraform</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/>
+                            <path d="M3.27 6.96L12 12.01l8.73-5.05M12 22.08V12"/>
+                        </svg>
+                    </div>
+                    <h3>Machine Learning</h3>
+                    <ul class="skill-list">
+                        <li>Scikit-learn</li>
+                        <li>TensorFlow / Keras</li>
+                        <li>Logistic & Linear Regression</li>
+                        <li>LSTM & Neural Networks</li>
+                        <li>Reinforcement Learning</li>
+                        <li>Feature Engineering</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M18 20V10M12 20V4M6 20v-6"/>
+                        </svg>
+                    </div>
+                    <h3>Analytics & BI</h3>
+                    <ul class="skill-list">
+                        <li>SQL (Advanced)</li>
+                        <li>Pandas & NumPy</li>
+                        <li>Matplotlib & Plotly</li>
+                        <li>Streamlit Dashboards</li>
+                        <li>Funnel & Cohort Analysis</li>
+                        <li>A/B Testing</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/>
+                        </svg>
+                    </div>
+                    <h3>Languages & Tools</h3>
+                    <ul class="skill-list">
+                        <li>Python</li>
+                        <li>C++ (Competitive)</li>
+                        <li>SQL / DuckDB</li>
+                        <li>Git & GitHub Actions</li>
+                        <li>MinIO / S3</li>
+                        <li>Great Expectations</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-desc">A selection of my work across data engineering, machine learning, and analytics.</p>
+
+            <!-- Featured Project 1 -->
+            <div class="project-featured">
+                <div class="project-featured-content">
+                    <span class="project-label">Featured Project</span>
+                    <h3 class="project-title">FitLake — Fitness Analytics Data Lakehouse</h3>
+                    <div class="project-description">
+                        <p>A production-grade data lakehouse that ingests raw wearable sensor data (HRV, sleep stages, heart rate zones, SpO2, skin temperature), processes it through a <strong>Bronze → Silver → Gold</strong> medallion architecture, and computes a science-based recovery score.</p>
+                        <p>Built with automatic data quality validation that quarantined 53 bad records (5.9%), full data lineage tracking, and a live Streamlit dashboard. Discovered that sleep under 6 hours drops recovery by 11 points, with HRV-Recovery correlation of r = 0.473.</p>
+                    </div>
+                    <ul class="project-tags">
+                        <li>PySpark</li>
+                        <li>Apache Iceberg</li>
+                        <li>Airflow</li>
+                        <li>DuckDB</li>
+                        <li>Streamlit</li>
+                        <li>Docker</li>
+                        <li>Terraform</li>
+                        <li>Great Expectations</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="https://github.com/itsameaditya/fitlake" target="_blank" rel="noopener" class="project-link">
+                            <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                            View Source
+                        </a>
+                    </div>
+                </div>
+                <div class="project-featured-visual">
+                    <div class="architecture-diagram">
+                        <div class="arch-layer" data-layer="source">
+                            <span class="arch-label">Raw Data</span>
+                            <span class="arch-detail">Wearable Sensors</span>
+                        </div>
+                        <div class="arch-arrow">→</div>
+                        <div class="arch-layer" data-layer="bronze">
+                            <span class="arch-label">Bronze</span>
+                            <span class="arch-detail">Ingestion</span>
+                        </div>
+                        <div class="arch-arrow">→</div>
+                        <div class="arch-layer" data-layer="silver">
+                            <span class="arch-label">Silver</span>
+                            <span class="arch-detail">Validation</span>
+                        </div>
+                        <div class="arch-arrow">→</div>
+                        <div class="arch-layer" data-layer="gold">
+                            <span class="arch-label">Gold</span>
+                            <span class="arch-detail">Recovery Score</span>
+                        </div>
+                    </div>
+                    <div class="project-metrics">
+                        <div class="metric">
+                            <span class="metric-value">10</span>
+                            <span class="metric-label">Docker Services</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">900</span>
+                            <span class="metric-label">User-Days</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">44</span>
+                            <span class="metric-label">Unit Tests</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Featured Project 2 -->
+            <div class="project-featured reverse">
+                <div class="project-featured-content">
+                    <span class="project-label">Featured Project</span>
+                    <h3 class="project-title">SaaS Funnel Leakage & Revenue Impact Analysis</h3>
+                    <div class="project-description">
+                        <p>End-to-end product analytics project that simulates a 20,000-user B2B SaaS funnel to identify where revenue leaks across the Signup → Activation → Trial → Subscription pipeline.</p>
+                        <p>Discovered that activated users convert at <strong>30.3% vs 0.7%</strong> for non-activated (43x uplift). Identified <strong>$466K+ in recoverable annual revenue</strong> through activation optimization, channel-specific fixes, and mobile payment friction reduction.</p>
+                    </div>
+                    <ul class="project-tags">
+                        <li>Python</li>
+                        <li>Pandas</li>
+                        <li>NumPy</li>
+                        <li>Matplotlib</li>
+                        <li>Funnel Analysis</li>
+                        <li>Revenue Modeling</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="https://github.com/itsameaditya/saas-funnel-leakage-detector" target="_blank" rel="noopener" class="project-link">
+                            <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                            View Source
+                        </a>
+                    </div>
+                </div>
+                <div class="project-featured-visual">
+                    <div class="funnel-diagram">
+                        <div class="funnel-stage" style="--width: 100%">
+                            <span class="funnel-label">Signup</span>
+                            <span class="funnel-count">20,000</span>
+                        </div>
+                        <div class="funnel-stage" style="--width: 84%">
+                            <span class="funnel-label">Onboarding</span>
+                            <span class="funnel-count">84%</span>
+                        </div>
+                        <div class="funnel-stage" style="--width: 70%">
+                            <span class="funnel-label">Activation</span>
+                            <span class="funnel-count">70.6%</span>
+                        </div>
+                        <div class="funnel-stage" style="--width: 59%">
+                            <span class="funnel-label">Trial</span>
+                            <span class="funnel-count">84.3%</span>
+                        </div>
+                        <div class="funnel-stage" style="--width: 36%">
+                            <span class="funnel-label">Subscription</span>
+                            <span class="funnel-count">36.4%</span>
+                        </div>
+                    </div>
+                    <div class="revenue-highlight">
+                        <span class="revenue-amount">$466K+</span>
+                        <span class="revenue-label">Recoverable Annual Revenue</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Other Projects Grid -->
+            <h3 class="subsection-title">Other Projects</h3>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-card-header">
+                        <svg class="project-card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 3h18v18H3zM12 8v8M8 12h8"/></svg>
+                        <div class="project-card-links">
+                            <a href="https://github.com/itsameaditya/Predicting_Employee_Retention_AdityaSingh" target="_blank" rel="noopener" aria-label="GitHub">
+                                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <h4 class="project-card-title">Employee Retention Prediction</h4>
+                    <p class="project-card-desc">Classification model using logistic regression to predict which employees are likely to leave, enabling proactive HR interventions and reducing turnover costs.</p>
+                    <ul class="project-tags">
+                        <li>Logistic Regression</li>
+                        <li>Scikit-learn</li>
+                        <li>Python</li>
+                    </ul>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-card-header">
+                        <svg class="project-card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s-8-4.5-8-11.8A8 8 0 0112 2a8 8 0 018 8.2c0 7.3-8 11.8-8 11.8z"/><circle cx="12" cy="10" r="3"/></svg>
+                        <div class="project-card-links">
+                            <a href="https://github.com/itsameaditya/LR_Delivery_Time_Prediction" target="_blank" rel="noopener" aria-label="GitHub">
+                                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <h4 class="project-card-title">Delivery Time Prediction</h4>
+                    <p class="project-card-desc">Regression model to predict package delivery times based on distance, weather, traffic, and historical patterns. Helps logistics teams optimize route planning.</p>
+                    <ul class="project-tags">
+                        <li>Linear Regression</li>
+                        <li>Scikit-learn</li>
+                        <li>Python</li>
+                    </ul>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-card-header">
+                        <svg class="project-card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 20V10M12 20V4M6 20v-6"/></svg>
+                        <div class="project-card-links">
+                            <a href="https://github.com/itsameaditya/EDA_Optimising_NYC_Taxis_Aditya_Singh" target="_blank" rel="noopener" aria-label="GitHub">
+                                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <h4 class="project-card-title">NYC Taxi Optimization (EDA)</h4>
+                    <p class="project-card-desc">Comprehensive exploratory data analysis of NYC taxi trip data (2023), uncovering demand patterns, peak hours, and pricing insights to optimize fleet allocation.</p>
+                    <ul class="project-tags">
+                        <li>EDA</li>
+                        <li>Pandas</li>
+                        <li>Visualization</li>
+                    </ul>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-card-header">
+                        <svg class="project-card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 7h16M4 12h16M4 17h10"/></svg>
+                        <div class="project-card-links">
+                            <a href="https://github.com/itsameaditya/SQL_Farmers_Insurance_Analysis" target="_blank" rel="noopener" aria-label="GitHub">
+                                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <h4 class="project-card-title">Farmers Insurance SQL Analysis</h4>
+                    <p class="project-card-desc">Advanced SQL analysis of insurance claims data — identifying risk patterns, claim distributions, and policyholder behavior to support underwriting decisions.</p>
+                    <ul class="project-tags">
+                        <li>SQL</li>
+                        <li>Data Analysis</li>
+                        <li>Insurance</li>
+                    </ul>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-card-header">
+                        <svg class="project-card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+                        <div class="project-card-links">
+                            <a href="https://github.com/itsameaditya/Stock-prediction" target="_blank" rel="noopener" aria-label="GitHub">
+                                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <h4 class="project-card-title">Stock Price Prediction (LSTM)</h4>
+                    <p class="project-card-desc">Deep learning model using Long Short-Term Memory networks to forecast stock prices from historical time series data, capturing temporal dependencies traditional models miss.</p>
+                    <ul class="project-tags">
+                        <li>LSTM</li>
+                        <li>TensorFlow</li>
+                        <li>Time Series</li>
+                    </ul>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-card-header">
+                        <svg class="project-card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>
+                        <div class="project-card-links">
+                            <a href="https://github.com/itsameaditya/FlappyBirdy" target="_blank" rel="noopener" aria-label="GitHub">
+                                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <h4 class="project-card-title">FlappyBirdy — RL Agent</h4>
+                    <p class="project-card-desc">Reinforcement learning agent that learns to play Flappy Bird using Q-learning. The agent discovers optimal jump timing through reward shaping and state-space exploration.</p>
+                    <ul class="project-tags">
+                        <li>Q-Learning</li>
+                        <li>Reinforcement Learning</li>
+                        <li>Python</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-text">I'm currently open to new opportunities in data science, machine learning, and analytics. Whether you have a role in mind or just want to connect, feel free to reach out.</p>
+            <div class="contact-links">
+                <a href="mailto:adityasingh@example.com" class="btn btn-primary contact-btn">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="20" height="20"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg>
+                    Say Hello
+                </a>
+                <a href="https://github.com/itsameaditya" target="_blank" rel="noopener" class="btn btn-outline contact-btn">
+                    <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                    GitHub
+                </a>
+                <a href="https://linkedin.com/in/" target="_blank" rel="noopener" class="btn btn-outline contact-btn">
+                    <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                    LinkedIn
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Designed & Built by Aditya Singh</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
